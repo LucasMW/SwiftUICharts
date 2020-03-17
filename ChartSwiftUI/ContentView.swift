@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     let color = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
-    let bgColor = Color.green
+    let bgColor = Color.purple
     
     @State var pickerSelectedItem = 0
     @State var dataPoints: [[CGFloat]] = [
@@ -26,7 +26,7 @@ struct ContentView: View {
                     .font(.system(size:34))
                     .fontWeight(.heavy)
                 
-                Picker(selection: $pickerSelectedItem, label: Text("")) {
+                Picker(selection: $pickerSelectedItem, label: Text("xxx")) {
                     Text("Weekday").tag(0)
                     Text("Afternoon").tag(1)
                     Text("Evening").tag(2)
