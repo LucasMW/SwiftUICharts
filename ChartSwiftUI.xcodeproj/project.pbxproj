@@ -16,6 +16,33 @@
 		FF9DD35D24200C2C00A74652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD35B24200C2C00A74652 /* LaunchScreen.storyboard */; };
 		FF9DD36824200C2C00A74652 /* ChartSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD36724200C2C00A74652 /* ChartSwiftUITests.swift */; };
 		FF9DD37324200C2C00A74652 /* ChartSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD37224200C2C00A74652 /* ChartSwiftUIUITests.swift */; };
+		FF9DD38824200D9800A74652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD38724200D9800A74652 /* AppDelegate.swift */; };
+		FF9DD38A24200D9800A74652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD38924200D9800A74652 /* ContentView.swift */; };
+		FF9DD38D24200D9800A74652 /* ChartSwiftUIMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD38B24200D9800A74652 /* ChartSwiftUIMac.xcdatamodeld */; };
+		FF9DD38F24200D9A00A74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD38E24200D9A00A74652 /* Assets.xcassets */; };
+		FF9DD39224200D9A00A74652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD39124200D9A00A74652 /* Preview Assets.xcassets */; };
+		FF9DD39524200D9A00A74652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD39324200D9A00A74652 /* Main.storyboard */; };
+		FF9DD3A124200D9A00A74652 /* ChartSwiftUIMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3A024200D9A00A74652 /* ChartSwiftUIMacTests.swift */; };
+		FF9DD3AC24200D9A00A74652 /* ChartSwiftUIMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3AB24200D9A00A74652 /* ChartSwiftUIMacUITests.swift */; };
+		FF9DD3BD2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FF9DD3BC2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF9DD3C32420315300A74652 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3C12420315300A74652 /* Interface.storyboard */; };
+		FF9DD3C52420315500A74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3C42420315500A74652 /* Assets.xcassets */; };
+		FF9DD3CC2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF9DD3CB2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF9DD3D12420315500A74652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3D02420315500A74652 /* ContentView.swift */; };
+		FF9DD3D32420315500A74652 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3D22420315500A74652 /* HostingController.swift */; };
+		FF9DD3D52420315500A74652 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3D42420315500A74652 /* ExtensionDelegate.swift */; };
+		FF9DD3D72420315500A74652 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3D62420315500A74652 /* NotificationController.swift */; };
+		FF9DD3D92420315500A74652 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3D82420315500A74652 /* NotificationView.swift */; };
+		FF9DD3DB2420315600A74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3DA2420315600A74652 /* Assets.xcassets */; };
+		FF9DD3DE2420315600A74652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3DD2420315600A74652 /* Preview Assets.xcassets */; };
+		FF9DD3F32420337A00A74652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3F22420337A00A74652 /* AppDelegate.swift */; };
+		FF9DD3F62420337A00A74652 /* ChartSwiftUITv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3F42420337A00A74652 /* ChartSwiftUITv.xcdatamodeld */; };
+		FF9DD3F82420337A00A74652 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD3F72420337A00A74652 /* ContentView.swift */; };
+		FF9DD3FA2420337C00A74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3F92420337C00A74652 /* Assets.xcassets */; };
+		FF9DD3FD2420337C00A74652 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3FC2420337C00A74652 /* Preview Assets.xcassets */; };
+		FF9DD4002420337C00A74652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9DD3FE2420337C00A74652 /* LaunchScreen.storyboard */; };
+		FF9DD40B2420337C00A74652 /* ChartSwiftUITvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD40A2420337C00A74652 /* ChartSwiftUITvTests.swift */; };
+		FF9DD4162420337C00A74652 /* ChartSwiftUITvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9DD4152420337C00A74652 /* ChartSwiftUITvUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +60,74 @@
 			remoteGlobalIDString = FF9DD34924200C2B00A74652;
 			remoteInfo = ChartSwiftUI;
 		};
+		FF9DD39D24200D9A00A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD38424200D9800A74652;
+			remoteInfo = ChartSwiftUIMac;
+		};
+		FF9DD3A824200D9A00A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD38424200D9800A74652;
+			remoteInfo = ChartSwiftUIMac;
+		};
+		FF9DD3BE2420315300A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD3BB2420315300A74652;
+			remoteInfo = "ChartSwiftUIWatch WatchKit App";
+		};
+		FF9DD3CD2420315500A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD3CA2420315500A74652;
+			remoteInfo = "ChartSwiftUIWatch WatchKit Extension";
+		};
+		FF9DD4072420337C00A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD3EF2420337A00A74652;
+			remoteInfo = ChartSwiftUITv;
+		};
+		FF9DD4122420337C00A74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF9DD34224200C2B00A74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF9DD3EF2420337A00A74652;
+			remoteInfo = ChartSwiftUITv;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF9DD3E42420315600A74652 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF9DD3CC2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3E82420315600A74652 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FF9DD3BD2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FF9DD34A24200C2B00A74652 /* ChartSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +145,51 @@
 		FF9DD36E24200C2C00A74652 /* ChartSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9DD37224200C2C00A74652 /* ChartSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUIUITests.swift; sourceTree = "<group>"; };
 		FF9DD37424200C2C00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD38024200D1800A74652 /* ChartSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChartSwiftUI.entitlements; sourceTree = "<group>"; };
+		FF9DD38524200D9800A74652 /* ChartSwiftUIMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartSwiftUIMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD38724200D9800A74652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF9DD38924200D9800A74652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF9DD38C24200D9800A74652 /* ChartSwiftUIMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChartSwiftUIMac.xcdatamodel; sourceTree = "<group>"; };
+		FF9DD38E24200D9A00A74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9DD39124200D9A00A74652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF9DD39424200D9A00A74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF9DD39624200D9A00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD39724200D9A00A74652 /* ChartSwiftUIMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChartSwiftUIMac.entitlements; sourceTree = "<group>"; };
+		FF9DD39C24200D9A00A74652 /* ChartSwiftUIMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUIMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3A024200D9A00A74652 /* ChartSwiftUIMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUIMacTests.swift; sourceTree = "<group>"; };
+		FF9DD3A224200D9A00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD3A724200D9A00A74652 /* ChartSwiftUIMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUIMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3AB24200D9A00A74652 /* ChartSwiftUIMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUIMacUITests.swift; sourceTree = "<group>"; };
+		FF9DD3AD24200D9A00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD3B92420315300A74652 /* ChartSwiftUIWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartSwiftUIWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3BC2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChartSwiftUIWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3C22420315300A74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF9DD3C42420315500A74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9DD3C62420315500A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD3CB2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ChartSwiftUIWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3D02420315500A74652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF9DD3D22420315500A74652 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		FF9DD3D42420315500A74652 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FF9DD3D62420315500A74652 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FF9DD3D82420315500A74652 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		FF9DD3DA2420315600A74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9DD3DD2420315600A74652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF9DD3DF2420315600A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD3E02420315600A74652 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FF9DD3F02420337A00A74652 /* ChartSwiftUITv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartSwiftUITv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD3F22420337A00A74652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF9DD3F52420337A00A74652 /* ChartSwiftUITv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChartSwiftUITv.xcdatamodel; sourceTree = "<group>"; };
+		FF9DD3F72420337A00A74652 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF9DD3F92420337C00A74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9DD3FC2420337C00A74652 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF9DD3FF2420337C00A74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9DD4012420337C00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD4062420337C00A74652 /* ChartSwiftUITvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUITvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD40A2420337C00A74652 /* ChartSwiftUITvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUITvTests.swift; sourceTree = "<group>"; };
+		FF9DD40C2420337C00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9DD4112420337C00A74652 /* ChartSwiftUITvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartSwiftUITvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9DD4152420337C00A74652 /* ChartSwiftUITvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartSwiftUITvUITests.swift; sourceTree = "<group>"; };
+		FF9DD4172420337C00A74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +214,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF9DD38224200D9800A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD39924200D9A00A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3A424200D9A00A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3C82420315500A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3ED2420337A00A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD4032420337C00A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD40E2420337C00A74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +272,14 @@
 				FF9DD34C24200C2B00A74652 /* ChartSwiftUI */,
 				FF9DD36624200C2C00A74652 /* ChartSwiftUITests */,
 				FF9DD37124200C2C00A74652 /* ChartSwiftUIUITests */,
+				FF9DD38624200D9800A74652 /* ChartSwiftUIMac */,
+				FF9DD39F24200D9A00A74652 /* ChartSwiftUIMacTests */,
+				FF9DD3AA24200D9A00A74652 /* ChartSwiftUIMacUITests */,
+				FF9DD3C02420315300A74652 /* ChartSwiftUIWatch WatchKit App */,
+				FF9DD3CF2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension */,
+				FF9DD3F12420337A00A74652 /* ChartSwiftUITv */,
+				FF9DD4092420337C00A74652 /* ChartSwiftUITvTests */,
+				FF9DD4142420337C00A74652 /* ChartSwiftUITvUITests */,
 				FF9DD34B24200C2B00A74652 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +290,15 @@
 				FF9DD34A24200C2B00A74652 /* ChartSwiftUI.app */,
 				FF9DD36324200C2C00A74652 /* ChartSwiftUITests.xctest */,
 				FF9DD36E24200C2C00A74652 /* ChartSwiftUIUITests.xctest */,
+				FF9DD38524200D9800A74652 /* ChartSwiftUIMac.app */,
+				FF9DD39C24200D9A00A74652 /* ChartSwiftUIMacTests.xctest */,
+				FF9DD3A724200D9A00A74652 /* ChartSwiftUIMacUITests.xctest */,
+				FF9DD3B92420315300A74652 /* ChartSwiftUIWatch.app */,
+				FF9DD3BC2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app */,
+				FF9DD3CB2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex */,
+				FF9DD3F02420337A00A74652 /* ChartSwiftUITv.app */,
+				FF9DD4062420337C00A74652 /* ChartSwiftUITvTests.xctest */,
+				FF9DD4112420337C00A74652 /* ChartSwiftUITvUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +306,7 @@
 		FF9DD34C24200C2B00A74652 /* ChartSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FF9DD38024200D1800A74652 /* ChartSwiftUI.entitlements */,
 				FF9DD34D24200C2B00A74652 /* AppDelegate.swift */,
 				FF9DD34F24200C2B00A74652 /* SceneDelegate.swift */,
 				FF9DD35424200C2B00A74652 /* ContentView.swift */,
@@ -137,6 +343,121 @@
 				FF9DD37424200C2C00A74652 /* Info.plist */,
 			);
 			path = ChartSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		FF9DD38624200D9800A74652 /* ChartSwiftUIMac */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD38724200D9800A74652 /* AppDelegate.swift */,
+				FF9DD38924200D9800A74652 /* ContentView.swift */,
+				FF9DD38E24200D9A00A74652 /* Assets.xcassets */,
+				FF9DD39324200D9A00A74652 /* Main.storyboard */,
+				FF9DD39624200D9A00A74652 /* Info.plist */,
+				FF9DD39724200D9A00A74652 /* ChartSwiftUIMac.entitlements */,
+				FF9DD38B24200D9800A74652 /* ChartSwiftUIMac.xcdatamodeld */,
+				FF9DD39024200D9A00A74652 /* Preview Content */,
+			);
+			path = ChartSwiftUIMac;
+			sourceTree = "<group>";
+		};
+		FF9DD39024200D9A00A74652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD39124200D9A00A74652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9DD39F24200D9A00A74652 /* ChartSwiftUIMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3A024200D9A00A74652 /* ChartSwiftUIMacTests.swift */,
+				FF9DD3A224200D9A00A74652 /* Info.plist */,
+			);
+			path = ChartSwiftUIMacTests;
+			sourceTree = "<group>";
+		};
+		FF9DD3AA24200D9A00A74652 /* ChartSwiftUIMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3AB24200D9A00A74652 /* ChartSwiftUIMacUITests.swift */,
+				FF9DD3AD24200D9A00A74652 /* Info.plist */,
+			);
+			path = ChartSwiftUIMacUITests;
+			sourceTree = "<group>";
+		};
+		FF9DD3C02420315300A74652 /* ChartSwiftUIWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3C12420315300A74652 /* Interface.storyboard */,
+				FF9DD3C42420315500A74652 /* Assets.xcassets */,
+				FF9DD3C62420315500A74652 /* Info.plist */,
+			);
+			path = "ChartSwiftUIWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF9DD3CF2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3D02420315500A74652 /* ContentView.swift */,
+				FF9DD3D22420315500A74652 /* HostingController.swift */,
+				FF9DD3D42420315500A74652 /* ExtensionDelegate.swift */,
+				FF9DD3D62420315500A74652 /* NotificationController.swift */,
+				FF9DD3D82420315500A74652 /* NotificationView.swift */,
+				FF9DD3DA2420315600A74652 /* Assets.xcassets */,
+				FF9DD3DF2420315600A74652 /* Info.plist */,
+				FF9DD3E02420315600A74652 /* PushNotificationPayload.apns */,
+				FF9DD3DC2420315600A74652 /* Preview Content */,
+			);
+			path = "ChartSwiftUIWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF9DD3DC2420315600A74652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3DD2420315600A74652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9DD3F12420337A00A74652 /* ChartSwiftUITv */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3F22420337A00A74652 /* AppDelegate.swift */,
+				FF9DD3F72420337A00A74652 /* ContentView.swift */,
+				FF9DD3F92420337C00A74652 /* Assets.xcassets */,
+				FF9DD3FE2420337C00A74652 /* LaunchScreen.storyboard */,
+				FF9DD4012420337C00A74652 /* Info.plist */,
+				FF9DD3F42420337A00A74652 /* ChartSwiftUITv.xcdatamodeld */,
+				FF9DD3FB2420337C00A74652 /* Preview Content */,
+			);
+			path = ChartSwiftUITv;
+			sourceTree = "<group>";
+		};
+		FF9DD3FB2420337C00A74652 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD3FC2420337C00A74652 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9DD4092420337C00A74652 /* ChartSwiftUITvTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD40A2420337C00A74652 /* ChartSwiftUITvTests.swift */,
+				FF9DD40C2420337C00A74652 /* Info.plist */,
+			);
+			path = ChartSwiftUITvTests;
+			sourceTree = "<group>";
+		};
+		FF9DD4142420337C00A74652 /* ChartSwiftUITvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF9DD4152420337C00A74652 /* ChartSwiftUITvUITests.swift */,
+				FF9DD4172420337C00A74652 /* Info.plist */,
+			);
+			path = ChartSwiftUITvUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +516,163 @@
 			productReference = FF9DD36E24200C2C00A74652 /* ChartSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FF9DD38424200D9800A74652 /* ChartSwiftUIMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3AE24200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMac" */;
+			buildPhases = (
+				FF9DD38124200D9800A74652 /* Sources */,
+				FF9DD38224200D9800A74652 /* Frameworks */,
+				FF9DD38324200D9800A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartSwiftUIMac;
+			productName = ChartSwiftUIMac;
+			productReference = FF9DD38524200D9800A74652 /* ChartSwiftUIMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9DD39B24200D9A00A74652 /* ChartSwiftUIMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3B124200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMacTests" */;
+			buildPhases = (
+				FF9DD39824200D9A00A74652 /* Sources */,
+				FF9DD39924200D9A00A74652 /* Frameworks */,
+				FF9DD39A24200D9A00A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD39E24200D9A00A74652 /* PBXTargetDependency */,
+			);
+			name = ChartSwiftUIMacTests;
+			productName = ChartSwiftUIMacTests;
+			productReference = FF9DD39C24200D9A00A74652 /* ChartSwiftUIMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF9DD3A624200D9A00A74652 /* ChartSwiftUIMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3B424200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMacUITests" */;
+			buildPhases = (
+				FF9DD3A324200D9A00A74652 /* Sources */,
+				FF9DD3A424200D9A00A74652 /* Frameworks */,
+				FF9DD3A524200D9A00A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD3A924200D9A00A74652 /* PBXTargetDependency */,
+			);
+			name = ChartSwiftUIMacUITests;
+			productName = ChartSwiftUIMacUITests;
+			productReference = FF9DD3A724200D9A00A74652 /* ChartSwiftUIMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FF9DD3B82420315300A74652 /* ChartSwiftUIWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3E92420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch" */;
+			buildPhases = (
+				FF9DD3B72420315300A74652 /* Resources */,
+				FF9DD3E82420315600A74652 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD3BF2420315300A74652 /* PBXTargetDependency */,
+			);
+			name = ChartSwiftUIWatch;
+			productName = ChartSwiftUIWatch;
+			productReference = FF9DD3B92420315300A74652 /* ChartSwiftUIWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		FF9DD3BB2420315300A74652 /* ChartSwiftUIWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3E52420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch WatchKit App" */;
+			buildPhases = (
+				FF9DD3BA2420315300A74652 /* Resources */,
+				FF9DD3E42420315600A74652 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD3CE2420315500A74652 /* PBXTargetDependency */,
+			);
+			name = "ChartSwiftUIWatch WatchKit App";
+			productName = "ChartSwiftUIWatch WatchKit App";
+			productReference = FF9DD3BC2420315300A74652 /* ChartSwiftUIWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FF9DD3CA2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD3E12420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch WatchKit Extension" */;
+			buildPhases = (
+				FF9DD3C72420315500A74652 /* Sources */,
+				FF9DD3C82420315500A74652 /* Frameworks */,
+				FF9DD3C92420315500A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartSwiftUIWatch WatchKit Extension";
+			productName = "ChartSwiftUIWatch WatchKit Extension";
+			productReference = FF9DD3CB2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		FF9DD3EF2420337A00A74652 /* ChartSwiftUITv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD4182420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITv" */;
+			buildPhases = (
+				FF9DD3EC2420337A00A74652 /* Sources */,
+				FF9DD3ED2420337A00A74652 /* Frameworks */,
+				FF9DD3EE2420337A00A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartSwiftUITv;
+			productName = ChartSwiftUITv;
+			productReference = FF9DD3F02420337A00A74652 /* ChartSwiftUITv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF9DD4052420337C00A74652 /* ChartSwiftUITvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD41B2420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITvTests" */;
+			buildPhases = (
+				FF9DD4022420337C00A74652 /* Sources */,
+				FF9DD4032420337C00A74652 /* Frameworks */,
+				FF9DD4042420337C00A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD4082420337C00A74652 /* PBXTargetDependency */,
+			);
+			name = ChartSwiftUITvTests;
+			productName = ChartSwiftUITvTests;
+			productReference = FF9DD4062420337C00A74652 /* ChartSwiftUITvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF9DD4102420337C00A74652 /* ChartSwiftUITvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9DD41E2420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITvUITests" */;
+			buildPhases = (
+				FF9DD40D2420337C00A74652 /* Sources */,
+				FF9DD40E2420337C00A74652 /* Frameworks */,
+				FF9DD40F2420337C00A74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF9DD4132420337C00A74652 /* PBXTargetDependency */,
+			);
+			name = ChartSwiftUITvUITests;
+			productName = ChartSwiftUITvUITests;
+			productReference = FF9DD4112420337C00A74652 /* ChartSwiftUITvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,6 +694,37 @@
 						CreatedOnToolsVersion = 11.2.1;
 						TestTargetID = FF9DD34924200C2B00A74652;
 					};
+					FF9DD38424200D9800A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF9DD39B24200D9A00A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF9DD38424200D9800A74652;
+					};
+					FF9DD3A624200D9A00A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF9DD38424200D9800A74652;
+					};
+					FF9DD3B82420315300A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF9DD3BB2420315300A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF9DD3CA2420315500A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF9DD3EF2420337A00A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF9DD4052420337C00A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF9DD3EF2420337A00A74652;
+					};
+					FF9DD4102420337C00A74652 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF9DD3EF2420337A00A74652;
+					};
 				};
 			};
 			buildConfigurationList = FF9DD34524200C2B00A74652 /* Build configuration list for PBXProject "ChartSwiftUI" */;
@@ -234,6 +743,15 @@
 				FF9DD34924200C2B00A74652 /* ChartSwiftUI */,
 				FF9DD36224200C2C00A74652 /* ChartSwiftUITests */,
 				FF9DD36D24200C2C00A74652 /* ChartSwiftUIUITests */,
+				FF9DD38424200D9800A74652 /* ChartSwiftUIMac */,
+				FF9DD39B24200D9A00A74652 /* ChartSwiftUIMacTests */,
+				FF9DD3A624200D9A00A74652 /* ChartSwiftUIMacUITests */,
+				FF9DD3B82420315300A74652 /* ChartSwiftUIWatch */,
+				FF9DD3BB2420315300A74652 /* ChartSwiftUIWatch WatchKit App */,
+				FF9DD3CA2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension */,
+				FF9DD3EF2420337A00A74652 /* ChartSwiftUITv */,
+				FF9DD4052420337C00A74652 /* ChartSwiftUITvTests */,
+				FF9DD4102420337C00A74652 /* ChartSwiftUITvUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +775,79 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FF9DD36C24200C2C00A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD38324200D9800A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD39524200D9A00A74652 /* Main.storyboard in Resources */,
+				FF9DD39224200D9A00A74652 /* Preview Assets.xcassets in Resources */,
+				FF9DD38F24200D9A00A74652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD39A24200D9A00A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3A524200D9A00A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3B72420315300A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3BA2420315300A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3C52420315500A74652 /* Assets.xcassets in Resources */,
+				FF9DD3C32420315300A74652 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3C92420315500A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3DE2420315600A74652 /* Preview Assets.xcassets in Resources */,
+				FF9DD3DB2420315600A74652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3EE2420337A00A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD4002420337C00A74652 /* LaunchScreen.storyboard in Resources */,
+				FF9DD3FD2420337C00A74652 /* Preview Assets.xcassets in Resources */,
+				FF9DD3FA2420337C00A74652 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD4042420337C00A74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD40F2420337C00A74652 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,6 +884,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF9DD38124200D9800A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD38A24200D9800A74652 /* ContentView.swift in Sources */,
+				FF9DD38824200D9800A74652 /* AppDelegate.swift in Sources */,
+				FF9DD38D24200D9800A74652 /* ChartSwiftUIMac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD39824200D9A00A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3A124200D9A00A74652 /* ChartSwiftUIMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3A324200D9A00A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3AC24200D9A00A74652 /* ChartSwiftUIMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3C72420315500A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3D32420315500A74652 /* HostingController.swift in Sources */,
+				FF9DD3D12420315500A74652 /* ContentView.swift in Sources */,
+				FF9DD3D72420315500A74652 /* NotificationController.swift in Sources */,
+				FF9DD3D52420315500A74652 /* ExtensionDelegate.swift in Sources */,
+				FF9DD3D92420315500A74652 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD3EC2420337A00A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD3F62420337A00A74652 /* ChartSwiftUITv.xcdatamodeld in Sources */,
+				FF9DD3F32420337A00A74652 /* AppDelegate.swift in Sources */,
+				FF9DD3F82420337A00A74652 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD4022420337C00A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD40B2420337C00A74652 /* ChartSwiftUITvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9DD40D2420337C00A74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9DD4162420337C00A74652 /* ChartSwiftUITvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -306,6 +961,36 @@
 			target = FF9DD34924200C2B00A74652 /* ChartSwiftUI */;
 			targetProxy = FF9DD36F24200C2C00A74652 /* PBXContainerItemProxy */;
 		};
+		FF9DD39E24200D9A00A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD38424200D9800A74652 /* ChartSwiftUIMac */;
+			targetProxy = FF9DD39D24200D9A00A74652 /* PBXContainerItemProxy */;
+		};
+		FF9DD3A924200D9A00A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD38424200D9800A74652 /* ChartSwiftUIMac */;
+			targetProxy = FF9DD3A824200D9A00A74652 /* PBXContainerItemProxy */;
+		};
+		FF9DD3BF2420315300A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD3BB2420315300A74652 /* ChartSwiftUIWatch WatchKit App */;
+			targetProxy = FF9DD3BE2420315300A74652 /* PBXContainerItemProxy */;
+		};
+		FF9DD3CE2420315500A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD3CA2420315500A74652 /* ChartSwiftUIWatch WatchKit Extension */;
+			targetProxy = FF9DD3CD2420315500A74652 /* PBXContainerItemProxy */;
+		};
+		FF9DD4082420337C00A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD3EF2420337A00A74652 /* ChartSwiftUITv */;
+			targetProxy = FF9DD4072420337C00A74652 /* PBXContainerItemProxy */;
+		};
+		FF9DD4132420337C00A74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF9DD3EF2420337A00A74652 /* ChartSwiftUITv */;
+			targetProxy = FF9DD4122420337C00A74652 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -313,6 +998,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF9DD35C24200C2C00A74652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9DD39324200D9A00A74652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9DD39424200D9A00A74652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9DD3C12420315300A74652 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9DD3C22420315300A74652 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		FF9DD3FE2420337C00A74652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9DD3FF2420337C00A74652 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -438,7 +1147,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChartSwiftUI/ChartSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N39N6XW3TU;
 				ENABLE_PREVIEWS = YES;
@@ -449,6 +1160,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,7 +1170,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChartSwiftUI/ChartSwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = N39N6XW3TU;
 				ENABLE_PREVIEWS = YES;
@@ -469,6 +1183,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -558,6 +1273,390 @@
 			};
 			name = Release;
 		};
+		FF9DD3AF24200D9A00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChartSwiftUIMac/ChartSwiftUIMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUIMac/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChartSwiftUIMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF9DD3B024200D9A00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChartSwiftUIMac/ChartSwiftUIMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUIMac/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChartSwiftUIMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF9DD3B224200D9A00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUIMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartSwiftUIMac.app/Contents/MacOS/ChartSwiftUIMac";
+			};
+			name = Debug;
+		};
+		FF9DD3B324200D9A00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUIMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartSwiftUIMac.app/Contents/MacOS/ChartSwiftUIMac";
+			};
+			name = Release;
+		};
+		FF9DD3B524200D9A00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUIMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChartSwiftUIMac;
+			};
+			name = Debug;
+		};
+		FF9DD3B624200D9A00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUIMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChartSwiftUIMac;
+			};
+			name = Release;
+		};
+		FF9DD3E22420315600A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUIWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ChartSwiftUIWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		FF9DD3E32420315600A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUIWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ChartSwiftUIWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		FF9DD3E62420315600A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				IBSC_MODULE = ChartSwiftUIWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ChartSwiftUIWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		FF9DD3E72420315600A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				IBSC_MODULE = ChartSwiftUIWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ChartSwiftUIWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		FF9DD3EA2420315600A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF9DD3EB2420315600A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUIWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF9DD4192420337C00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUITv/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChartSwiftUITv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		FF9DD41A2420337C00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ChartSwiftUITv/Preview Content\"";
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ChartSwiftUITv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		FF9DD41C2420337C00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUITvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartSwiftUITv.app/ChartSwiftUITv";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		FF9DD41D2420337C00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUITvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartSwiftUITv.app/ChartSwiftUITv";
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		FF9DD41F2420337C00A74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUITvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = ChartSwiftUITv;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		FF9DD4202420337C00A74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N39N6XW3TU;
+				INFOPLIST_FILE = ChartSwiftUITvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MWAPPTECH.ChartSwiftUITvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = ChartSwiftUITv;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,6 +1696,87 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FF9DD3AE24200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3AF24200D9A00A74652 /* Debug */,
+				FF9DD3B024200D9A00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD3B124200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3B224200D9A00A74652 /* Debug */,
+				FF9DD3B324200D9A00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD3B424200D9A00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3B524200D9A00A74652 /* Debug */,
+				FF9DD3B624200D9A00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD3E12420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3E22420315600A74652 /* Debug */,
+				FF9DD3E32420315600A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD3E52420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3E62420315600A74652 /* Debug */,
+				FF9DD3E72420315600A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD3E92420315600A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUIWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD3EA2420315600A74652 /* Debug */,
+				FF9DD3EB2420315600A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD4182420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD4192420337C00A74652 /* Debug */,
+				FF9DD41A2420337C00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD41B2420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD41C2420337C00A74652 /* Debug */,
+				FF9DD41D2420337C00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9DD41E2420337C00A74652 /* Build configuration list for PBXNativeTarget "ChartSwiftUITvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9DD41F2420337C00A74652 /* Debug */,
+				FF9DD4202420337C00A74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
@@ -607,6 +1787,26 @@
 			);
 			currentVersion = FF9DD35224200C2B00A74652 /* ChartSwiftUI.xcdatamodel */;
 			path = ChartSwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FF9DD38B24200D9800A74652 /* ChartSwiftUIMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF9DD38C24200D9800A74652 /* ChartSwiftUIMac.xcdatamodel */,
+			);
+			currentVersion = FF9DD38C24200D9800A74652 /* ChartSwiftUIMac.xcdatamodel */;
+			path = ChartSwiftUIMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FF9DD3F42420337A00A74652 /* ChartSwiftUITv.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF9DD3F52420337A00A74652 /* ChartSwiftUITv.xcdatamodel */,
+			);
+			currentVersion = FF9DD3F52420337A00A74652 /* ChartSwiftUITv.xcdatamodel */;
+			path = ChartSwiftUITv.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
